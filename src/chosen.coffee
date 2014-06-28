@@ -33,7 +33,7 @@ angular.module('localytics.directives').directive 'chosen', ->
 
   restrict: 'A'
   require: '?ngModel'
-  terminal: true
+  terminal: false
   link: (scope, element, attr, ngModel) ->
 
     element.addClass('localytics-chosen')
